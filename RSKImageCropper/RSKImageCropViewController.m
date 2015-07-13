@@ -872,4 +872,17 @@ static const CGFloat kLayoutImageScrollViewAnimationDuration = 0.25;
     return YES;
 }
 
+
+#pragma  mark  - Custom View
+
+- (void)setChooseButtonText:(NSString *)text
+{
+	[self.chooseButton setTitle:text forState:UIControlStateNormal];
+}
+
+- (void)hideMoveAndScaleText
+{
+	[self.moveAndScaleLabel setHidden:YES];
+}
+
 @end

@@ -179,6 +179,8 @@ typedef NS_ENUM(NSUInteger, RSKImageCropMode) {
  @return YES if the interface orientation is portrait, otherwise returns NO.
  */
 - (BOOL)isPortraitInterfaceOrientation;
+- (void)setChooseButtonText:(NSString *)text;
+- (void)hideMoveAndScaleText;
 
 @end
 
